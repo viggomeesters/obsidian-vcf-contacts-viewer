@@ -105,7 +105,42 @@ Community plugin files are installed from GitHub releases. For each release:
 3. Create a GitHub release whose tag exactly matches `manifest.json.version`.
 4. Attach `main.js`, `manifest.json`, and `styles.css` as release assets.
 
-The repository includes a GitHub Actions release workflow with artifact attestation support. If GitHub Actions is disabled for the owner account, manual releases are still usable, but automated review may show a recommendation about missing artifact attestations.
+The repository includes a GitHub Actions release workflow with artifact attestation support. If GitHub Actions is disabled for the owner account, manual releases are still usable for Obsidian, but the Community automated review may show a recommendation about missing artifact attestations.
+
+## Community directory submission
+
+The repository is prepared for Obsidian Community plugin submission. The remaining submission step must be completed by the repository owner in the Obsidian Community site because it requires signing in, linking GitHub, and confirming the developer policies/support commitment.
+
+Submit this repository URL:
+
+```text
+https://github.com/viggomeesters/obsidian-vcf-contacts-viewer
+```
+
+Steps:
+
+1. Sign in to [community.obsidian.md](https://community.obsidian.md).
+2. Link the GitHub account that owns this repository.
+3. Open **Plugins -> New plugin**.
+4. Enter the repository URL above.
+5. Confirm the developer policies and submit.
+6. Address any automated review feedback.
+
+The current release is ready for review:
+
+- root `README.md`, `LICENSE`, and `manifest.json` exist
+- `manifest.json.version` is `0.1.0`
+- GitHub release `0.1.0` exists
+- release assets include `main.js`, `manifest.json`, and `styles.css`
+- `versions.json` maps supported Obsidian versions
+- `manifest.json.id` is `vcf-contacts-viewer`, uses only lowercase letters and hyphens, does not contain `obsidian`, and does not end with `plugin`
+- `manifest.json.name` is `VCF Contacts Viewer`, uses Basic Latin characters, and does not include `Obsidian`
+
+Official references:
+
+- [Submit your plugin](https://docs.obsidian.md/Plugins/Releasing/Submit%20your%20plugin)
+- [Manifest reference](https://docs.obsidian.md/Reference/Manifest)
+- [Obsidian releases repository](https://github.com/obsidianmd/obsidian-releases)
 
 ## License
 
