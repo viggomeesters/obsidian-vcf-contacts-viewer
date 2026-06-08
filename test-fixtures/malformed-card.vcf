@@ -1,0 +1,10 @@
+ orphan continuation before any property
+BEGIN:VCARD
+VERSION:2.1
+FN:Old Version
+X-UNKNOWN:kept raw
+BROKEN WITHOUT COLON
+END:VCARD
+BEGIN:VCARD
+VERSION:4.0
+FN:Missing End

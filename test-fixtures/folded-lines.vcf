@@ -1,0 +1,6 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Folded Person
+NOTE:This note is intentionally long and is folded across
+ continuation lines without losing its text.
+END:VCARD

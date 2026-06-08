@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Alpha Person
+N:Person;Alpha;;;
+EMAIL:alpha@example.com
+END:VCARD
+BEGIN:VCARD
+VERSION:4.0
+FN:Beta Person
+N:Person;Beta;;;
+TEL:+1555020202
+ORG:Beta Org
+END:VCARD

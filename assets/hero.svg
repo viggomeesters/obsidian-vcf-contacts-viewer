@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">VCF Contacts Viewer</title>
+  <desc id="desc">A read-only contact card interface for VCF files.</desc>
+  <rect width="1200" height="420" fill="#f8fafc"/>
+  <rect x="48" y="52" width="1104" height="316" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <rect x="88" y="92" width="260" height="236" rx="12" fill="#ecfeff" stroke="#99f6e4"/>
+  <rect x="384" y="92" width="728" height="236" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <circle cx="136" cy="138" r="24" fill="#0f766e"/>
+  <text x="176" y="132" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="24" font-weight="700">VCF Contacts Viewer</text>
+  <text x="176" y="162" fill="#475569" font-family="ui-sans-serif, system-ui" font-size="15">Read-only contact cards and import-preflight warnings</text>
+  <rect x="112" y="206" width="196" height="10" rx="5" fill="#0f766e"/>
+  <rect x="112" y="232" width="156" height="10" rx="5" fill="#94a3b8"/>
+  <rect x="112" y="258" width="176" height="10" rx="5" fill="#94a3b8"/>
+  <text x="424" y="142" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="28" font-weight="800">Jane Doe</text>
+  <text x="424" y="174" fill="#475569" font-family="ui-sans-serif, system-ui" font-size="16">Example Co / Research</text>
+  <rect x="424" y="216" width="620" height="1" fill="#cbd5e1"/>
+  <text x="424" y="250" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="700">EMAIL</text>
+  <text x="540" y="250" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="14">jane@example.com</text>
+  <text x="424" y="286" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="700">PHONE</text>
+  <text x="540" y="286" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="14">+1 555 0101</text>
+  <text x="424" y="322" fill="#a16207" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="700">PHOTO URL blocked</text>
+</svg>

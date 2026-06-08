@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:4.0
+FN:Max Mustermann
+N:Mustermann;Max;;;
+ORG:Example GmbH
+TEL;TYPE=work,voice;VALUE=uri:tel:+49-30-123456
+EMAIL;TYPE=work:max@example.test
+TITLE:Director
+UID:urn:uuid:12345678-1234-1234-1234-123456789abc
+REV:20260203T100000Z
+END:VCARD

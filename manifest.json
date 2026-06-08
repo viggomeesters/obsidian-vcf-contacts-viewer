@@ -1,0 +1,10 @@
+{
+  "id": "vcf-contacts-viewer",
+  "name": "VCF Contacts Viewer",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Open .vcf files as read-only contact cards with search, raw source, and import-preflight warnings.",
+  "author": "Viggo Meesters",
+  "authorUrl": "https://github.com/viggomeesters",
+  "isDesktopOnly": false
+}

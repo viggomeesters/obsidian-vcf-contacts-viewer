@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">VCF Contacts Viewer screenshot</title>
+  <desc id="desc">Contact list, detail table, warning panel, and source switch.</desc>
+  <rect width="1200" height="760" fill="#f1f5f9"/>
+  <rect x="48" y="42" width="1104" height="676" rx="18" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="88" y="96" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="24" font-weight="800">contacts.vcf</text>
+  <rect x="780" y="72" width="132" height="36" rx="8" fill="#0f766e"/>
+  <text x="822" y="96" fill="#ffffff" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="700">Cards</text>
+  <rect x="920" y="72" width="132" height="36" rx="8" fill="#e2e8f0"/>
+  <text x="962" y="96" fill="#475569" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="700">Source</text>
+  <rect x="88" y="132" width="1024" height="58" rx="10" fill="#fefce8" stroke="#ca8a04"/>
+  <text x="112" y="166" fill="#a16207" font-family="ui-sans-serif, system-ui" font-size="14" font-weight="800">Import-preflight warnings</text>
+  <text x="330" y="166" fill="#334155" font-family="ui-sans-serif, system-ui" font-size="14">Remote PHOTO URL is shown as metadata only and is never loaded.</text>
+  <rect x="88" y="218" width="276" height="440" rx="12" fill="#ecfeff" stroke="#99f6e4"/>
+  <rect x="104" y="238" width="244" height="72" rx="8" fill="#ffffff" stroke="#0f766e"/>
+  <text x="124" y="270" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="800">Jane Doe</text>
+  <text x="124" y="292" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="12">Example Co / jane@example.com</text>
+  <rect x="104" y="324" width="244" height="72" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="124" y="356" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="16" font-weight="800">Max Mustermann</text>
+  <text x="124" y="378" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="12">Example GmbH / +49...</text>
+  <rect x="392" y="218" width="720" height="440" rx="12" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="424" y="270" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="30" font-weight="800">Jane Doe</text>
+  <text x="424" y="304" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="14">vCard 3.0  lines 1-17</text>
+  <line x1="424" y1="340" x2="1068" y2="340" stroke="#cbd5e1"/>
+  <text x="424" y="378" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="13" font-weight="800">EMAIL</text>
+  <text x="560" y="378" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="13">jane@example.com</text>
+  <line x1="424" y1="404" x2="1068" y2="404" stroke="#e2e8f0"/>
+  <text x="424" y="438" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="13" font-weight="800">PHONE</text>
+  <text x="560" y="438" fill="#0f172a" font-family="ui-sans-serif, system-ui" font-size="13">+1 555 0101</text>
+  <line x1="424" y1="464" x2="1068" y2="464" stroke="#e2e8f0"/>
+  <text x="424" y="498" fill="#64748b" font-family="ui-sans-serif, system-ui" font-size="13" font-weight="800">PHOTO</text>
+  <text x="560" y="498" fill="#a16207" font-family="ui-sans-serif, system-ui" font-size="13">Remote PHOTO URL metadata only</text>
+</svg>

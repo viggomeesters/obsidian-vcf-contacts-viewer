@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Doe;Jane;;;
+FN:Jane Doe
+ORG:Example Co;Research
+TITLE:Research Lead
+TEL;TYPE=CELL:+1555010101
+EMAIL;TYPE=INTERNET:jane@example.com
+ADR;TYPE=WORK:;;1 Main Street;Springfield;IL;62701;USA
+URL:https://example.com/jane
+BDAY:19800102
+UID:jane-doe-001
+REV:20260101T120000Z
+CATEGORIES:research,contacts
+NOTE:Met at a synthetic fixture event.
+END:VCARD
