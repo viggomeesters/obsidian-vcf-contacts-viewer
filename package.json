@@ -1,6 +1,6 @@
 {
   "name": "obsidian-vcf-contacts-viewer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Read-only VCF contact card viewer.",
   "license": "MIT",
   "author": "Viggo Meesters",
