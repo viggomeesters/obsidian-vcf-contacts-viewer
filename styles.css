@@ -1,4 +1,6 @@
 .vcf-contacts-viewer {
+  container-name: vcf-contacts-viewer;
+  container-type: inline-size;
   --vcf-border: color-mix(in srgb, var(--text-muted) 22%, transparent);
   --vcf-panel: color-mix(in srgb, var(--background-primary) 86%, var(--background-secondary));
   --vcf-soft: color-mix(in srgb, var(--background-secondary) 82%, var(--background-primary));
@@ -314,6 +316,31 @@
   text-align: center;
 }
 
+@container vcf-contacts-viewer (max-width: 720px) {
+  .vcf-contacts-viewer__header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .vcf-contacts-viewer__toolbar {
+    justify-content: flex-start;
+  }
+
+  .vcf-contacts-viewer__search,
+  .vcf-contacts-viewer__search input {
+    width: 100%;
+  }
+
+  .vcf-contacts-viewer__shell {
+    grid-template-columns: 1fr;
+  }
+
+  .vcf-contacts-viewer__list {
+    border-bottom: 1px solid var(--vcf-border);
+    border-right: 0;
+    max-height: 220px;
+  }
+}
 @media (max-width: 720px) {
   .vcf-contacts-viewer {
     padding: 10px;
